@@ -7,6 +7,9 @@ Stack : HTML/CSS and JS
 
 Concept practiced : 
 - Fetch 
+- REST API
+- Request ( URL) 
+- JSON
 - Async Javascript 
 - Await 
 - Promise and rejection 
