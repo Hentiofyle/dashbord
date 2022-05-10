@@ -1,0 +1,110 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+} 
+
+.error{
+    color: red;
+}
+
+body {
+    background: no-repeat center center fixed; 
+    background-size: cover;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px 0px 20px #aaaaaa;
+
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1,h3{
+    text-align: center;
+
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+#image__info{
+    display: flex;
+   font-size: 20px;
+}
+#desc{
+   
+    margin-left: 3rem;
+    margin-top: 15px;
+}
+
+#crypto{
+    font-size: 1.3rem;
+}
+
+#crypto-top > span {
+    margin-left: 10px;
+}
+
+#crypto-top{
+    display: flex;
+    align-items: center;
+
+}
+
+#crypto-info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+#crypto-info > p{
+    margin: 5px;
+}
+
+#weather{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#weather > img{
+    width: 70px;
+}
+
+.weather-city {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    margin-top: -83px;
+    font-size: 21px;
+}
+
+.weather-temp {
+    margin: 0;
+    font-size: 1.7rem;
+    margin-left: 5px;
+}
+
+
+
